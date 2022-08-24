@@ -1,11 +1,11 @@
   applications:
-  - name: onlinecourse
+  - name: onlinecourse-34r
     routes:
-      - route: host.domain
+      - route: anandutkarsh.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: onlinecourse-nginx
+  - name: onlinecourse-nginx-34r
     routes:
-      - route: host.domain/static
+      - route: anandutkarsh.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
